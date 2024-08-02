@@ -1,0 +1,50 @@
+.example-link {
+  color: blue;
+}
+
+.example-link:hover {
+  color: red;
+}
+
+.example-link:active {
+  color: orange;
+}
+
+/* .example-link:visited {
+  color: purple;
+} */
+
+button:disabled {
+  background-color: #d3d3d3;
+  border: none;
+}
+
+/* input:focus {
+  border: 2px solid green;
+  outline: none;
+} */
+
+.email-input:invalid {
+  border: 2px solid red;
+}
+
+/* .example-list li:nth-child(even) {
+  background-color: red;
+}
+
+.example-list li:nth-child(odd) {
+  background-color: green;
+} */
+
+.example-list li {
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+
+.example-list li:last-child {
+  border-bottom: none;
+}
+
+ul {
+  border: 1px solid black;
+}

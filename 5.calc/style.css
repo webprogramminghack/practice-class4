@@ -1,0 +1,12 @@
+.parent-rectangle {
+  background-color: green;
+  height: 50px;
+  width: calc(100vw - 100px);
+}
+
+.child-rectangle {
+  width: calc(50% / 2 - 100px);
+  height: 100%;
+  background-color: blue;
+  padding: 0 calc(10px + 20%);
+}

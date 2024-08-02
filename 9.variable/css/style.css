@@ -1,0 +1,11 @@
+h1 {
+  font-size: 40px;
+  font-family: var(--font-inter);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: var(--font-poppins);
+  color: var(--color-secondary);
+}

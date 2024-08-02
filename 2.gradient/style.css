@@ -1,0 +1,21 @@
+body {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rectangle {
+  width: 300px;
+  height: 200px;
+}
+
+.linear-gradient-example {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.radial-gradient-example {
+  background-image: radial-gradient(ellipse at center, blue, lightblue);
+}
+
+.conic-gradient-example {
+  background-image: conic-gradient(from 0deg, red, yellow, green, blue, red);
+}
